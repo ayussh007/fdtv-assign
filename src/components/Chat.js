@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import style from "../css/chat.css";
+import style from "../css/chat.module.css";
 import { BsChatRight } from "react-icons/bs";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import { useContext } from "react";

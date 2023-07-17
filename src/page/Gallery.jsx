@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import LeftNav from "../components/LeftNav";
 import TopNav from "../components/TopNav";
 import { MyAppContext } from "../contestApi/ContestProvider";
-import style from "../css/comingsoon.css"
+import style from "../css/comingsoonpage.module.css"
 
 const Gallery = () => {
   const { setProfileVisibility } = useContext(MyAppContext);
